@@ -1,7 +1,8 @@
-let isOver18;
-let hasCriminalBlacklist;
+// James
+let isOver18 = true;
+let hasCriminalBlacklist = false;
 
-let isAllow;
+let isAllow = isOver18 && !hasCriminalBlacklist;
 
 // Start coding here
 
